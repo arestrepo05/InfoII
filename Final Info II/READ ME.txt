@@ -1,0 +1,7 @@
+Hola.
+El proyecto te permitira aprender sobre partes del cuerpo humano, la idea es ayudar a facilitar el aprendizaje 
+de estas partes con ayudas graficas como lo son las imagenes
+Las credenciales son -Alejandro- con codigo -0505- y -Sebastian- con codigo -1234-
+Recuerda que tienes que correr modelo, vista y de ultimo controlador, tambien cabe aclarar que el codigo
+se puede demorar debido al procesamiento de la imagenes asi que ten paciencia.
+Gracias
