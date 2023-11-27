@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>996</width>
+    <height>783</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 250, 236);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>20</pointsize>
+     <weight>10</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 255);
+text-decoration: underline;
+font: 87 20pt &quot;Arial Black&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>El cerebro:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>951</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>El cerebro humano es un órgano increíblemente complejo y vital que forma parte del sistema nervioso central. Aquí tienes una descripción general de algunas de sus características clave:
+
+Estructura física:
+
+El cerebro se encuentra en el cráneo y está protegido por las meninges y el líquido cefalorraquídeo.
+Está dividido en dos hemisferios, derecho e izquierdo, que están conectados por el cuerpo calloso.
+La superficie externa del cerebro se llama la corteza cerebral, y tiene surcos y circunvoluciones que aumentan su superficie y capacidad.
+
+Funciones cognitivas:
+
+El cerebro es la sede de muchas funciones cognitivas, incluyendo la memoria, el aprendizaje, la atención, el razonamiento y el procesamiento sensorial.
+Los hemisferios cerebrales están asociados con diferentes funciones. Por ejemplo, el hemisferio izquierdo suele estar involucrado en el lenguaje, mientras que el hemisferio derecho está asociado .
+con la percepción espacial y la creatividad.
+
+Sistema nervioso:
+
+El cerebro coordina las funciones del cuerpo a través del sistema nervioso, que incluye el sistema nervioso central (cerebro y médula espinal) y el sistema nervioso periférico.
+Las neuronas son las células fundamentales del cerebro y se comunican entre sí mediante impulsos eléctricos y sustancias químicas llamadas neurotransmisores.
+
+Plasticidad cerebral:
+
+El cerebro tiene una capacidad notable para la plasticidad, lo que significa que puede adaptarse y cambiar a lo largo de la vida en respuesta a la experiencia, el aprendizaje y la lesión.
+La plasticidad cerebral es esencial para el aprendizaje y la recuperación después de lesiones.
+
+Sueño y ritmo circadiano:
+
+El cerebro regula el ciclo sueño-vigilia y otros ritmos biológicos a través de la liberación de hormonas como la melatonina.
+El sueño es crucial para el funcionamiento adecuado del cerebro y está relacionado con la consolidación de la memoria y otros procesos cognitivos.
+
+Emociones y comportamiento:
+
+El cerebro desempeña un papel central en la regulación de las emociones y el comportamiento a través de regiones como la amígdala y el córtex prefrontal.
+La química cerebral, incluyendo neurotransmisores como la serotonina y la dopamina, influye en el estado de ánimo y el bienestar emocional.
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_salir3">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>740</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>12</pointsize>
+     <weight>10</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(162, 210, 255);</string>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_regresar1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>740</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>12</pointsize>
+     <weight>10</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(162, 210, 255);</string>
+   </property>
+   <property name="text">
+    <string>Regresar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="imagen">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>490</y>
+     <width>681</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>boton_salir3</zorder>
+  <zorder>boton_regresar1</zorder>
+  <zorder>label</zorder>
+  <zorder>imagen</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

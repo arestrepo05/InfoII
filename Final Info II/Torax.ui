@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>942</width>
+    <height>825</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 250, 236);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>20</pointsize>
+     <weight>10</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 255);
+text-decoration: underline;
+font: 87 20pt &quot;Arial Black&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>El torax:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>891</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>El tórax es una parte vital del cuerpo humano que alberga y protege órganos importantes. A continuación, se presenta una descripción general de algunas de sus características clave:
+
+Estructura física:
+
+El tórax es la región entre el cuello y el abdomen, encerrada por las costillas y la columna vertebral.
+Está compuesto por 12 pares de costillas que se conectan a la columna vertebral en la parte posterior y al esternón en la parte frontal.
+La caja torácica contiene los pulmones, el corazón y otros órganos vitales.
+Funciones respiratorias:
+
+El tórax alberga los pulmones, los órganos esenciales para la respiración.
+Durante la inspiración, los músculos intercostales y el diafragma se contraen, expandiendo la cavidad torácica y permitiendo que los pulmones se llenen de aire.
+En la espiración, estos músculos se relajan, y el aire es expulsado de los pulmones.
+Sistema cardiovascular:
+
+El corazón, un órgano central en el tórax, impulsa la sangre a través del sistema circulatorio.
+Las arterias transportan la sangre rica en oxígeno desde el corazón a todo el cuerpo, mientras que las venas llevan la sangre pobre en oxígeno de vuelta al corazón.
+El tórax protege el corazón y contribuye a mantener un entorno propicio para su funcionamiento.
+Órganos mediastínicos:
+
+En el mediastino, una región central del tórax, se encuentran órganos como el timo, el esófago y grandes vasos sanguíneos.
+Estos órganos desempeñan roles cruciales en el sistema inmunológico, la digestión y el transporte de nutrientes y oxígeno.
+Lesiones y cuidado:
+
+El tórax es susceptible a lesiones, como fracturas de costillas o contusiones pulmonares, que pueden afectar la capacidad respiratoria.
+El cuidado del tórax implica mantener una postura adecuada, evitar lesiones traumáticas y buscar atención médica si se sospecha algún problema.
+Importancia para la salud:
+
+Un tórax saludable es fundamental para el bienestar general, ya que asegura un suministro adecuado de oxígeno y nutrientes a todo el cuerpo.
+Mantener hábitos de vida saludables, como la actividad física regular y una dieta equilibrada, contribuye a la salud del tórax y del sistema cardiovascular en general.
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_salir4">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>780</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>12</pointsize>
+     <weight>10</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(162, 210, 255);</string>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_regresar2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>780</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>12</pointsize>
+     <weight>10</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(162, 210, 255);</string>
+   </property>
+   <property name="text">
+    <string>Regresar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="imagen2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>470</y>
+     <width>681</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>boton_salir4</zorder>
+  <zorder>boton_regresar2</zorder>
+  <zorder>label</zorder>
+  <zorder>imagen2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
